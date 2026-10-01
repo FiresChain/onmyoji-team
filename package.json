@@ -1,0 +1,35 @@
+{
+  "name": "onmyoji-team",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/prepare-runtime.mjs",
+    "data:update": "node scripts/update-base-panels.mjs --fetch",
+    "predev": "npm run setup",
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "npm run setup",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "check": "npm test && npm run build"
+  },
+  "dependencies": {
+    "@lucide/vue": "1.33.0",
+    "@paddleocr/paddleocr-js": "0.4.2",
+    "onnxruntime-web": "1.24.3",
+    "qrcode": "1.5.4",
+    "vue": "^3.5.41"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/pngjs": "6.0.5",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "jsqr": "1.4.0",
+    "pngjs": "5.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.6",
+    "vue-tsc": "^3.3.10"
+  }
+}

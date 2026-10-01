@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "catalogCount": 278,
+  "supportedCount": 277,
+  "unsupported": [
+    {
+      "heroId": 362,
+      "reason": "官网面板与多份六星40级无御魂实例的攻击、防御基础值不一致，来源差异待核验"
+    }
+  ],
+  "reference": {
+    "referenceCount": 189,
+    "matchedCount": 188,
+    "mismatches": [
+      {
+        "heroId": 362,
+        "fields": [
+          "attack",
+          "defense"
+        ]
+      }
+    ]
+  }
+}

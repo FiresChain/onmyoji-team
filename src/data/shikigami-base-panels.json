@@ -1,0 +1,7813 @@
+{
+  "schemaVersion": 2,
+  "source": {
+    "name": "阴阳师官网式神模拟器",
+    "page": "https://yys.163.com/shishen/241.html",
+    "attributesEndpoint": "https://g37simulator.webapp.163.com/get_hero_attr?heroid={id}&awake={awake}&level=40&star=6",
+    "skillsEndpoint": "https://g37simulator.webapp.163.com/get_hero_skill?heroid={id}&awake=1&level=40&star=6",
+    "catalog": "onmyoji-data/catalogs/shikigami.json",
+    "collectedAt": "2026-09-29",
+    "selection": {
+      "awake1": [
+        "SSR",
+        "SR",
+        "R",
+        "L"
+      ],
+      "awake0": [
+        "SP",
+        "UR",
+        "N",
+        "G",
+        "素材"
+      ]
+    },
+    "interpretation": "critPower is extra critical damage above 100%; fixed awakening bonuses are separated into innate"
+  },
+  "panels": [
+    {
+      "heroId": 200,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2385.2,
+        "hp": 11393,
+        "defense": 489.51000000000005,
+        "speed": 100,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0.1,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 201,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3055.2000000000003,
+        "hp": 10481.64,
+        "defense": 414.53999999999996,
+        "speed": 109,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 202,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2921.2000000000003,
+        "hp": 10367.72,
+        "defense": 441,
+        "speed": 102,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 20,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 203,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 205,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2331.6,
+        "hp": 12418.28,
+        "defense": 458.64000000000004,
+        "speed": 102,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 206,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2733.6,
+        "hp": 11620.84,
+        "defense": 423.35999999999996,
+        "speed": 117,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 207,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2974.8,
+        "hp": 9798.119999999999,
+        "defense": 454.23,
+        "speed": 108,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 208,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2358.4,
+        "hp": 12873.960000000001,
+        "defense": 436.59,
+        "speed": 109,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 209,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3028.4,
+        "hp": 10139.880000000001,
+        "defense": 432.18,
+        "speed": 113,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 210,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3055.2000000000003,
+        "hp": 10253.800000000001,
+        "defense": 423.35999999999996,
+        "speed": 116,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 211,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3108.8,
+        "hp": 10367.72,
+        "defense": 410.13,
+        "speed": 101,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0.1,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 212,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2438.7999999999997,
+        "hp": 12760.04,
+        "defense": 427.77,
+        "speed": 103,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 213,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2412,
+        "hp": 12987.880000000001,
+        "defense": 423.35999999999996,
+        "speed": 109,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 214,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2840.8,
+        "hp": 11393,
+        "defense": 414.53999999999996,
+        "speed": 105,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 215,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2921.2000000000003,
+        "hp": 10709.48,
+        "defense": 427.77,
+        "speed": 118,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 216,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3055.2000000000003,
+        "hp": 10709.48,
+        "defense": 405.71999999999997,
+        "speed": 105,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0.2,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 217,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3135.6,
+        "hp": 10025.960000000001,
+        "defense": 418.95,
+        "speed": 114,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0.1,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 218,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2974.8,
+        "hp": 10481.64,
+        "defense": 427.77,
+        "speed": 111,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 219,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3135.6,
+        "hp": 11165.16,
+        "defense": 374.84999999999997,
+        "speed": 113,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 220,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 10253.800000000001,
+        "defense": 432.18,
+        "speed": 109,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 221,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2894.4,
+        "hp": 10709.48,
+        "defense": 432.18,
+        "speed": 118,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 222,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3028.4,
+        "hp": 10481.64,
+        "defense": 418.95,
+        "speed": 110,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 223,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2948.0000000000005,
+        "hp": 9912.039999999999,
+        "defense": 454.23,
+        "speed": 107,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 224,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2251.2,
+        "hp": 12304.36,
+        "defense": 476.28000000000003,
+        "speed": 114,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 225,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3028.4,
+        "hp": 10709.48,
+        "defense": 410.13,
+        "speed": 104,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 226,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3055.2000000000003,
+        "hp": 10937.32,
+        "defense": 396.90000000000003,
+        "speed": 108,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 227,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2385.2,
+        "hp": 13329.64,
+        "defense": 480.69000000000005,
+        "speed": 116,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 228,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2894.4,
+        "hp": 11165.16,
+        "defense": 414.53999999999996,
+        "speed": 117,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 230,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2519.2,
+        "hp": 11734.76,
+        "defense": 454.23,
+        "speed": 118,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 231,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2974.8,
+        "hp": 10253.800000000001,
+        "defense": 436.59,
+        "speed": 114,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 232,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2921.2000000000003,
+        "hp": 10709.48,
+        "defense": 427.77,
+        "speed": 115,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 233,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3055.2000000000003,
+        "hp": 10709.48,
+        "defense": 405.71999999999997,
+        "speed": 119,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 234,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2304.8,
+        "hp": 12304.36,
+        "defense": 467.46000000000004,
+        "speed": 117,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 236,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 10595.56,
+        "defense": 418.95,
+        "speed": 108,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 237,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2894.4,
+        "hp": 10709.48,
+        "defense": 432.18,
+        "speed": 115,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 238,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2680,
+        "hp": 11393,
+        "defense": 441,
+        "speed": 103,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 241,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2438.7999999999997,
+        "hp": 12076.52,
+        "defense": 454.23,
+        "speed": 115,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 242,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2840.8,
+        "hp": 11734.76,
+        "defense": 401.30999999999995,
+        "speed": 108,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 243,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 10139.880000000001,
+        "defense": 436.5899999999999,
+        "speed": 116,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0.2,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 244,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2894.4,
+        "hp": 10937.32,
+        "defense": 423.35999999999996,
+        "speed": 110,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 245,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 246,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 247,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3055.2000000000003,
+        "hp": 10139.880000000001,
+        "defense": 427.77,
+        "speed": 109,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 248,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 11051.24,
+        "defense": 401.30999999999995,
+        "speed": 111,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0.1,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 249,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2599.6,
+        "hp": 11620.84,
+        "defense": 445.40999999999997,
+        "speed": 108,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 250,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2974.8,
+        "hp": 10595.56,
+        "defense": 423.35999999999996,
+        "speed": 107,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 251,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3028.4,
+        "hp": 10481.64,
+        "defense": 418.95,
+        "speed": 118,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 252,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2680,
+        "hp": 11393,
+        "defense": 441,
+        "speed": 106,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 253,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 10937.32,
+        "defense": 405.71999999999997,
+        "speed": 115,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 254,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3055.2000000000003,
+        "hp": 10367.720000000001,
+        "defense": 418.95,
+        "speed": 115,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 255,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2465.6,
+        "hp": 11962.6,
+        "defense": 454.23,
+        "speed": 117,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 10,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 256,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2572.7999999999997,
+        "hp": 12646.12,
+        "defense": 410.13,
+        "speed": 120,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 257,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2412,
+        "hp": 11962.6,
+        "defense": 463.05000000000007,
+        "speed": 119,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 258,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3135.6000000000004,
+        "hp": 10481.64,
+        "defense": 401.31,
+        "speed": 109,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 259,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2814,
+        "hp": 11165.16,
+        "defense": 427.77,
+        "speed": 120,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 260,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2412,
+        "hp": 11848.68,
+        "defense": 467.46000000000004,
+        "speed": 105,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 261,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2680,
+        "hp": 11620.84,
+        "defense": 432.18,
+        "speed": 117,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 262,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3082.0000000000005,
+        "hp": 10823.4,
+        "defense": 396.90000000000003,
+        "speed": 113,
+        "crit": 0.5,
+        "critDamage": 1.2,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 263,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2626.4,
+        "hp": 11506.92,
+        "defense": 445.40999999999997,
+        "speed": 116,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 264,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3082.0000000000005,
+        "hp": 10823.4,
+        "defense": 396.90000000000003,
+        "speed": 112,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 265,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3216.0000000000005,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 112,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 266,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2438.8,
+        "hp": 11620.84,
+        "defense": 471.87,
+        "speed": 119,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 267,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2385.2,
+        "hp": 13785.320000000002,
+        "defense": 396.9,
+        "speed": 99,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 268,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2358.4,
+        "hp": 12873.960000000001,
+        "defense": 436.59,
+        "speed": 107,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 269,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3269.6000000000004,
+        "hp": 10025.960000000001,
+        "defense": 396.9,
+        "speed": 111,
+        "crit": 0.12,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 270,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3216.0000000000005,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 118,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0.1,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 271,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3135.6000000000004,
+        "hp": 10595.56,
+        "defense": 396.9,
+        "speed": 114,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 272,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2385.2,
+        "hp": 13899.24,
+        "defense": 392.49,
+        "speed": 117,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 273,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2385.2,
+        "hp": 13329.640000000001,
+        "defense": 414.53999999999996,
+        "speed": 118,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 274,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2519.2,
+        "hp": 13215.720000000001,
+        "defense": 396.9,
+        "speed": 117,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 275,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3269.6,
+        "hp": 10139.880000000001,
+        "defense": 392.49,
+        "speed": 115,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0.1,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 276,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3269.6000000000004,
+        "hp": 10139.88,
+        "defense": 392.49,
+        "speed": 110,
+        "crit": 0.12,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 277,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3376.8,
+        "hp": 9912.039999999999,
+        "defense": 383.67,
+        "speed": 109,
+        "crit": 0.09,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 278,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3189.2000000000003,
+        "hp": 10481.64,
+        "defense": 392.49,
+        "speed": 113,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 279,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2304.8,
+        "hp": 14127.08,
+        "defense": 396.9,
+        "speed": 112,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 280,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2331.6000000000004,
+        "hp": 13785.320000000002,
+        "defense": 405.71999999999997,
+        "speed": 108,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 281,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3162.4000000000005,
+        "hp": 10595.56,
+        "defense": 392.49,
+        "speed": 112,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 282,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2331.6000000000004,
+        "hp": 13671.400000000001,
+        "defense": 410.13,
+        "speed": 116,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 283,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3323.2000000000007,
+        "hp": 10253.800000000001,
+        "defense": 489.51000000000005,
+        "speed": 109,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 285,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 11393,
+        "defense": 388.08,
+        "speed": 119,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 286,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3269.6000000000004,
+        "hp": 10025.960000000001,
+        "defense": 396.9,
+        "speed": 110,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 287,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2438.7999999999997,
+        "hp": 13671.400000000001,
+        "defense": 392.49,
+        "speed": 119,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 288,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 11393,
+        "defense": 388.08,
+        "speed": 107,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 289,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2411.9999999999995,
+        "hp": 13215.720000000001,
+        "defense": 414.53999999999996,
+        "speed": 116,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 290,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2921.2000000000003,
+        "hp": 10823.4,
+        "defense": 423.35999999999996,
+        "speed": 115,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 291,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2680,
+        "hp": 11393,
+        "defense": 441,
+        "speed": 109,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 292,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3323.2,
+        "hp": 10025.960000000001,
+        "defense": 388.08,
+        "speed": 121,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 293,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2733.6,
+        "hp": 9456.359999999999,
+        "defense": 507.15,
+        "speed": 118,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 294,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3028.4,
+        "hp": 11393,
+        "defense": 383.67,
+        "speed": 113,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0.5
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 295,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2304.8,
+        "hp": 12760.04,
+        "defense": 449.82,
+        "speed": 109,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 296,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3403.6,
+        "hp": 11393,
+        "defense": 388.08,
+        "speed": 115,
+        "crit": 0.01,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 297,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2358.4,
+        "hp": 14013.160000000002,
+        "defense": 392.49,
+        "speed": 112,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 298,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2251.2,
+        "hp": 13899.240000000002,
+        "defense": 396.9,
+        "speed": 111,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 300,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3350,
+        "hp": 12532.2,
+        "defense": 352.79999999999995,
+        "speed": 110,
+        "crit": 0.12,
+        "critDamage": 1.6,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 301,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2251.2,
+        "hp": 11051.24,
+        "defense": 485.1000000000001,
+        "speed": 111,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0.4
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 302,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2948.0000000000005,
+        "hp": 11051.24,
+        "defense": 401.31,
+        "speed": 116,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 303,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 9912.039999999999,
+        "defense": 445.40999999999997,
+        "speed": 106,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 304,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 12646.12,
+        "defense": 449.82,
+        "speed": 119,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 305,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3350,
+        "hp": 10253.800000000001,
+        "defense": 392.49,
+        "speed": 112,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 306,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2385.2,
+        "hp": 14013.16,
+        "defense": 388.08,
+        "speed": 115,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 307,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 10709.48,
+        "defense": 414.53999999999996,
+        "speed": 118,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 308,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3189.2000000000003,
+        "hp": 9228.52,
+        "defense": 441,
+        "speed": 110,
+        "crit": 0.1,
+        "critDamage": 1.6,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 309,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3162.4000000000005,
+        "hp": 10595.56,
+        "defense": 401.30999999999995,
+        "speed": 114,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 310,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2063.6,
+        "hp": 12418.28,
+        "defense": 485.1,
+        "speed": 110,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 311,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3242.8000000000006,
+        "hp": 10139.880000000001,
+        "defense": 396.9,
+        "speed": 119,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 312,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3350,
+        "hp": 10823.4,
+        "defense": 352.79999999999995,
+        "speed": 117,
+        "crit": 0.11,
+        "critDamage": 1.6,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 313,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2974.8,
+        "hp": 11393,
+        "defense": 392.49,
+        "speed": 114,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 314,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3323.2000000000007,
+        "hp": 10025.960000000001,
+        "defense": 388.08,
+        "speed": 118,
+        "crit": 0.12,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 315,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3484,
+        "hp": 9684.199999999999,
+        "defense": 374.84999999999997,
+        "speed": 122,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 316,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 1822.3999999999999,
+        "hp": 14241,
+        "defense": 471.87,
+        "speed": 111,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 317,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 1795.6,
+        "hp": 12987.880000000001,
+        "defense": 511.56000000000006,
+        "speed": 98,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 318,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2948.0000000000005,
+        "hp": 11962.6,
+        "defense": 374.84999999999997,
+        "speed": 109,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 319,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3108.8,
+        "hp": 10595.56,
+        "defense": 401.31,
+        "speed": 115,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 320,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2733.6,
+        "hp": 11734.76,
+        "defense": 418.95,
+        "speed": 118,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 321,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3028.3999999999996,
+        "hp": 9342.439999999999,
+        "defense": 463.05000000000007,
+        "speed": 104,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 322,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3323.2,
+        "hp": 10253.800000000001,
+        "defense": 379.26,
+        "speed": 112,
+        "crit": 0.15,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 323,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2251.2,
+        "hp": 11962.6,
+        "defense": 489.5100000000001,
+        "speed": 109,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 324,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2840.8,
+        "hp": 12873.960000000001,
+        "defense": 357.21,
+        "speed": 111,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 325,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 4073.6,
+        "hp": 12418.28,
+        "defense": 480.69,
+        "speed": 118,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 326,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3082.0000000000005,
+        "hp": 11393,
+        "defense": 485.09999999999997,
+        "speed": 109,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 327,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3296.4,
+        "hp": 11393,
+        "defense": 339.57,
+        "speed": 121,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 328,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3376.8,
+        "hp": 9912.04,
+        "defense": 383.6700000000001,
+        "speed": 111,
+        "crit": 0.12,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 329,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3216.0000000000005,
+        "hp": 10367.720000000001,
+        "defense": 432.18,
+        "speed": 111,
+        "crit": 0.09,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 330,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3457.2000000000003,
+        "hp": 9228.52,
+        "defense": 396.90000000000003,
+        "speed": 117,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 331,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3055.2000000000003,
+        "hp": 11734.76,
+        "defense": 383.67,
+        "speed": 115,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 332,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2948.0000000000005,
+        "hp": 9114.6,
+        "defense": 485.1,
+        "speed": 109,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 333,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3323.2,
+        "hp": 12646.12,
+        "defense": 396.90000000000003,
+        "speed": 108,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 334,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3403.6000000000004,
+        "hp": 11279.08,
+        "defense": 383.6700000000001,
+        "speed": 110,
+        "crit": 0.2,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 335,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3242.8000000000006,
+        "hp": 11051.24,
+        "defense": 361.62,
+        "speed": 108,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 336,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3162.4000000000005,
+        "hp": 10595.56,
+        "defense": 401.30999999999995,
+        "speed": 114,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 337,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3198.044,
+        "hp": 9898.369599999998,
+        "defense": 397.99985399999997,
+        "speed": 110,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 338,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3510.8,
+        "hp": 10025.960000000001,
+        "defense": 357.21000000000004,
+        "speed": 120,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 339,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3510.8,
+        "hp": 12532.2,
+        "defense": 388.08,
+        "speed": 115,
+        "crit": 0.12,
+        "critDamage": 1.6,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 340,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2546,
+        "hp": 11620.84,
+        "defense": 454.23,
+        "speed": 109,
+        "crit": 0.06,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 341,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3189.2,
+        "hp": 11962.6,
+        "defense": 445.41,
+        "speed": 109,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 342,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2358.4,
+        "hp": 13557.480000000001,
+        "defense": 480.69000000000005,
+        "speed": 115,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 343,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3403.6,
+        "hp": 10937.32,
+        "defense": 339.57,
+        "speed": 119,
+        "crit": 0.12,
+        "critDamage": 1.6,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 344,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3028.4,
+        "hp": 8317.16,
+        "defense": 498.33000000000004,
+        "speed": 109,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 345,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3395.5600000000004,
+        "hp": 10139.880000000001,
+        "defense": 392.49,
+        "speed": 118,
+        "crit": 0.11,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 346,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 11051.24,
+        "defense": 401.30999999999995,
+        "speed": 111,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 347,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2197.6000000000004,
+        "hp": 13443.560000000001,
+        "defense": 440.99999999999994,
+        "speed": 110,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 348,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2733.6,
+        "hp": 11506.92,
+        "defense": 427.77,
+        "speed": 119,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 349,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 11393,
+        "defense": 388.08,
+        "speed": 109,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0.2,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 350,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2974.8,
+        "hp": 11279.08,
+        "defense": 396.90000000000003,
+        "speed": 107,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 351,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3269.6000000000004,
+        "hp": 13215.720000000001,
+        "defense": 383.6700000000001,
+        "speed": 110,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 352,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3028.3999999999996,
+        "hp": 12042.344,
+        "defense": 398.223,
+        "speed": 118,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 353,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3108.8,
+        "hp": 10709.48,
+        "defense": 396.9,
+        "speed": 115,
+        "crit": 0.15,
+        "critDamage": 1.6,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 354,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3269.6,
+        "hp": 10481.640000000001,
+        "defense": 379.26,
+        "speed": 115,
+        "crit": 0.12,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 355,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3350,
+        "hp": 11393,
+        "defense": 441,
+        "speed": 115,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 356,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2948.0000000000005,
+        "hp": 12532.2,
+        "defense": 410.13,
+        "speed": 121,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 357,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3296.4,
+        "hp": 11393,
+        "defense": 388.08,
+        "speed": 116,
+        "crit": 0.12,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 358,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3350,
+        "hp": 10823.4,
+        "defense": 352.8,
+        "speed": 108,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 359,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3135.6,
+        "hp": 10481.64,
+        "defense": 401.31,
+        "speed": 110,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 360,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 11393,
+        "defense": 388.08,
+        "speed": 118,
+        "crit": 0.09,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 361,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2492.3999999999996,
+        "hp": 11962.6,
+        "defense": 449.82,
+        "speed": 109,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0.6
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 362,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2680,
+        "hp": 10025.960000000001,
+        "defense": 493.9200000000001,
+        "speed": 109,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": false,
+      "reason": "官网面板与多份六星40级无御魂实例的攻击、防御基础值不一致，来源差异待核验"
+    },
+    {
+      "heroId": 363,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3108.8,
+        "hp": 15380.2,
+        "defense": 436.59,
+        "speed": 111,
+        "crit": 0.09,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 364,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 4127.2,
+        "hp": 11279.08,
+        "defense": 427.77,
+        "speed": 119,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 365,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2787.2000000000003,
+        "hp": 9114.599999999999,
+        "defense": 507.15,
+        "speed": 114,
+        "crit": 0.09,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 366,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3162.3999999999996,
+        "hp": 10481.640000000001,
+        "defense": 396.90000000000003,
+        "speed": 119,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 367,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2278,
+        "hp": 14468.84,
+        "defense": 388.08,
+        "speed": 112,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 368,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2492.3999999999996,
+        "hp": 14354.92,
+        "defense": 480.69000000000005,
+        "speed": 113,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 369,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3028.4,
+        "hp": 11393,
+        "defense": 396.9,
+        "speed": 119,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 370,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3162.4000000000005,
+        "hp": 10823.4,
+        "defense": 396.90000000000003,
+        "speed": 112,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 371,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2814,
+        "hp": 12190.44,
+        "defense": 401.31,
+        "speed": 123,
+        "crit": 0.09,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 372,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2949.072,
+        "hp": 11393,
+        "defense": 396.90000000000003,
+        "speed": 113,
+        "crit": 0.08,
+        "critDamage": 1.65,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 373,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3028.4,
+        "hp": 11051.24,
+        "defense": 396.90000000000003,
+        "speed": 113,
+        "crit": 0.09,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 375,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 10139.880000000001,
+        "defense": 436.5899999999999,
+        "speed": 116,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0.2,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 376,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3195.0692000000004,
+        "hp": 9251.304,
+        "defense": 440.99999999999994,
+        "speed": 114,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 377,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3031.08,
+        "hp": 10481.640000000001,
+        "defense": 418.068,
+        "speed": 116,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 378,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3055.2000000000003,
+        "hp": 10595.56,
+        "defense": 410.13,
+        "speed": 112,
+        "crit": 0.09,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 379,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2492.3999999999996,
+        "hp": 12532.2,
+        "defense": 538.0200000000001,
+        "speed": 115,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 382,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2358.4,
+        "hp": 12532.2,
+        "defense": 449.82,
+        "speed": 116,
+        "crit": 0.06,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 383,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 4152.9999999956,
+        "hp": 13215.72,
+        "defense": 436.5899999999999,
+        "speed": 118,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 384,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2503.12,
+        "hp": 12418.28,
+        "defense": 432.18,
+        "speed": 121,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 385,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2144,
+        "hp": 12805.608000000002,
+        "defense": 476.28,
+        "speed": 123,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 386,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3403.6,
+        "hp": 10367.72,
+        "defense": 361.62,
+        "speed": 117,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 387,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2760.4,
+        "hp": 11962.6,
+        "defense": 405.71999999999997,
+        "speed": 109,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 10,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 388,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3135.6,
+        "hp": 11279.08,
+        "defense": 370.44,
+        "speed": 114,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 389,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 4154,
+        "hp": 11734.76,
+        "defense": 493.92,
+        "speed": 112,
+        "crit": 0.12000000000000001,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 390,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3671.6000000000004,
+        "hp": 13101.8,
+        "defense": 432.18000000000006,
+        "speed": 116,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 391,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3510.8,
+        "hp": 9228.52,
+        "defense": 388.08,
+        "speed": 117,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 392,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3564.4,
+        "hp": 11165.16,
+        "defense": 436.59,
+        "speed": 118,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 393,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2098.44,
+        "hp": 12839.784,
+        "defense": 480.69000000000005,
+        "speed": 113,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0.75
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 394,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3400.9200000000005,
+        "hp": 15391.592,
+        "defense": 388.08,
+        "speed": 118,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 395,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2224.4,
+        "hp": 12873.96,
+        "defense": 458.64000000000004,
+        "speed": 111,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 396,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3028.3999999999996,
+        "hp": 11506.92,
+        "defense": 401.30999999999995,
+        "speed": 114,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 397,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3100.76,
+        "hp": 11404.392000000002,
+        "defense": 371.322,
+        "speed": 115,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 398,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 1902.8,
+        "hp": 13671.400000000001,
+        "defense": 480.69,
+        "speed": 118,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 399,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3123.272,
+        "hp": 11734.76,
+        "defense": 471.86999999999995,
+        "speed": 109,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 400,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 401,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 403,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 404,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 405,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 406,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 407,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 408,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 409,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 410,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 411,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 412,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 414,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2465.6,
+        "hp": 10025.960000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 415,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2438.8,
+        "hp": 10139.880000000001,
+        "defense": 401.30999999999995,
+        "speed": 99,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 416,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2492.4,
+        "hp": 10253.800000000001,
+        "defense": 388.08,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 417,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2278,
+        "hp": 10481.640000000001,
+        "defense": 396.90000000000003,
+        "speed": 102,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 418,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2438.8,
+        "hp": 10253.800000000001,
+        "defense": 379.26,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 419,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2331.6,
+        "hp": 10595.560000000001,
+        "defense": 396.90000000000003,
+        "speed": 101,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 420,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0.01,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 421,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2385.2,
+        "hp": 10253.800000000001,
+        "defense": 401.30999999999995,
+        "speed": 101,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 422,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2465.6,
+        "hp": 10253.800000000001,
+        "defense": 379.26,
+        "speed": 99,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 423,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2358.4,
+        "hp": 10367.720000000001,
+        "defense": 401.30999999999995,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 424,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2331.6,
+        "hp": 10481.640000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 425,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2304.8,
+        "hp": 10253.800000000001,
+        "defense": 405.72,
+        "speed": 98,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 426,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2438.8,
+        "hp": 10253.800000000001,
+        "defense": 392.49,
+        "speed": 99,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 427,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10139.880000000001,
+        "defense": 401.30999999999995,
+        "speed": 100,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 428,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2438.8,
+        "hp": 10253.800000000001,
+        "defense": 392.49,
+        "speed": 99,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 429,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 10139.880000000001,
+        "defense": 401.30999999999995,
+        "speed": 97,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 430,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 95,
+        "crit": 0,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 433,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 100,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 500,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3047.16,
+        "hp": 11062.632,
+        "defense": 393.372,
+        "speed": 117,
+        "crit": 0.09,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0.4
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 550,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3537.6000000000004,
+        "hp": 11165.16,
+        "defense": 440.99999999999994,
+        "speed": 119,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0.3,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 551,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2680,
+        "hp": 11734.76,
+        "defense": 427.77,
+        "speed": 120,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0.3
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 552,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2251.2,
+        "hp": 12532.2,
+        "defense": 467.46000000000004,
+        "speed": 122,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0.3
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 553,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3604.6000000000004,
+        "hp": 11506.92,
+        "defense": 431.298,
+        "speed": 115,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0.1,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 554,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2224.4,
+        "hp": 13557.48,
+        "defense": 432.18000000000006,
+        "speed": 108,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 555,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3135.6,
+        "hp": 10709.48,
+        "defense": 396.90000000000003,
+        "speed": 114,
+        "crit": 0.1,
+        "critDamage": 1.6,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 556,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3886.0000000000005,
+        "hp": 11962.6,
+        "defense": 595.35,
+        "speed": 119,
+        "crit": 0.12000000000000001,
+        "critDamage": 1.6,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 557,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3618.0000000000005,
+        "hp": 12076.52,
+        "defense": 449.82,
+        "speed": 116,
+        "crit": 0.2,
+        "critDamage": 1.5,
+        "effectHit": 0.2,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 558,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2492.3999999999996,
+        "hp": 11506.92,
+        "defense": 467.46000000000004,
+        "speed": 120,
+        "crit": 0.05,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 559,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3350,
+        "hp": 9684.199999999999,
+        "defense": 396.90000000000003,
+        "speed": 115,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 561,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2170.7999999999997,
+        "hp": 11506.92,
+        "defense": 520.3800000000001,
+        "speed": 118,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 562,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3108.8,
+        "hp": 12418.28,
+        "defense": 388.08,
+        "speed": 114,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 563,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2170.7999999999997,
+        "hp": 14013.16,
+        "defense": 423.35999999999996,
+        "speed": 116,
+        "crit": 0.09,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 564,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 1983.2,
+        "hp": 13671.400000000001,
+        "defense": 467.46000000000004,
+        "speed": 115,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0.2,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 565,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2224.4,
+        "hp": 12532.2,
+        "defense": 471.87,
+        "speed": 126,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 566,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2278,
+        "hp": 12987.88,
+        "defense": 445.4100000000001,
+        "speed": 115,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 567,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3516.1600000000003,
+        "hp": 11506.92,
+        "defense": 431.298,
+        "speed": 108,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 568,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3269.6,
+        "hp": 13557.48,
+        "defense": 480.69000000000005,
+        "speed": 117,
+        "crit": 0.1,
+        "critDamage": 1.8,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 569,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3376.8000000000006,
+        "hp": 10367.720000000001,
+        "defense": 366.03,
+        "speed": 118,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 570,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2626.4,
+        "hp": 14127.08,
+        "defense": 454.2300000000001,
+        "speed": 116,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0.1,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 571,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2251.2,
+        "hp": 12760.04,
+        "defense": 458.64000000000004,
+        "speed": 109,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0.4
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 572,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 12190.44,
+        "defense": 454.23,
+        "speed": 114,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 573,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3786.036,
+        "hp": 12646.12,
+        "defense": 386.8893,
+        "speed": 118,
+        "crit": 0.2,
+        "critDamage": 1.6,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 574,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3108.8,
+        "hp": 11506.92,
+        "defense": 366.03,
+        "speed": 110,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0.3
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 575,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3108.8,
+        "hp": 10823.4,
+        "defense": 392.49,
+        "speed": 116,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0.3,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 576,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2948.0000000000005,
+        "hp": 11393,
+        "defense": 396.90000000000003,
+        "speed": 117,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0.3
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 577,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2010,
+        "hp": 12646.12,
+        "defense": 507.15,
+        "speed": 118,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0.3,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 578,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2224.4,
+        "hp": 13557.48,
+        "defense": 432.18000000000006,
+        "speed": 108,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 579,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3296.4,
+        "hp": 11165.16,
+        "defense": 414.53999999999996,
+        "speed": 115,
+        "crit": 0.15,
+        "critDamage": 1.6,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 580,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2948.0000000000005,
+        "hp": 11393,
+        "defense": 396.90000000000003,
+        "speed": 114,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 581,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3296.4000000000005,
+        "hp": 9684.2,
+        "defense": 405.72,
+        "speed": 118,
+        "crit": 0.11,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0.15,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 582,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2197.6,
+        "hp": 13671.400000000001,
+        "defense": 432.18,
+        "speed": 115,
+        "crit": 0.02,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0.25
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 583,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3242.8000000000006,
+        "hp": 12304.36,
+        "defense": 445.40999999999997,
+        "speed": 119,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 584,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3510.8,
+        "hp": 11393,
+        "defense": 436.59,
+        "speed": 116,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 585,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 1849.1999999999998,
+        "hp": 14924.52,
+        "defense": 441,
+        "speed": 118,
+        "crit": 0.03,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 586,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2412,
+        "hp": 10253.800000000001,
+        "defense": 595.35,
+        "speed": 109,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 587,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3055.2000000000003,
+        "hp": 10709.48,
+        "defense": 405.71999999999997,
+        "speed": 115,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0.3,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 588,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3216.0000000000005,
+        "hp": 10253.800000000001,
+        "defense": 396.90000000000003,
+        "speed": 115,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 590,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3001.6000000000004,
+        "hp": 11051.24,
+        "defense": 401.30999999999995,
+        "speed": 109,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0.75
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 591,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3912.8000000000006,
+        "hp": 12919.528000000002,
+        "defense": 549.486,
+        "speed": 117,
+        "crit": 0.13,
+        "critDamage": 1.6,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 592,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 4020,
+        "hp": 10253.800000000001,
+        "defense": 595.35,
+        "speed": 116,
+        "crit": 0.1,
+        "critDamage": 1.6,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 593,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3269.6,
+        "hp": 10595.560000000001,
+        "defense": 374.84999999999997,
+        "speed": 116,
+        "crit": 0.12,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 594,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 1875.9999999999998,
+        "hp": 13785.32,
+        "defense": 480.69000000000005,
+        "speed": 113,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 595,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 1340,
+        "hp": 15152.36,
+        "defense": 515.9699999999999,
+        "speed": 111,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 596,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2010,
+        "hp": 13899.24,
+        "defense": 454.23,
+        "speed": 110,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 597,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3966.4,
+        "hp": 12532.2,
+        "defense": 493.9200000000001,
+        "speed": 117,
+        "crit": 0.12,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 598,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2144,
+        "hp": 12532.2,
+        "defense": 485.1,
+        "speed": 110,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 599,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3216,
+        "hp": 10937.32,
+        "defense": 441,
+        "speed": 115,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 600,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3216.0000000000005,
+        "hp": 11506.92,
+        "defense": 392.49,
+        "speed": 118,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 601,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2144,
+        "hp": 14696.68,
+        "defense": 533.6100000000001,
+        "speed": 110,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0.3
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 602,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 3510.8,
+        "hp": 11506.92,
+        "defense": 432.18000000000006,
+        "speed": 114,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 603,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3591.2000000000003,
+        "hp": 11393,
+        "defense": 423.35999999999996,
+        "speed": 115,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0.3
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 604,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3403.6,
+        "hp": 9798.119999999999,
+        "defense": 383.67,
+        "speed": 119,
+        "crit": 0.2,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 605,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2144,
+        "hp": 14468.84,
+        "defense": 410.13,
+        "speed": 116,
+        "crit": 0.09,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 606,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 2010,
+        "hp": 14810.6,
+        "defense": 418.95,
+        "speed": 110,
+        "crit": 0.08,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0.1,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 607,
+      "star": 6,
+      "level": 40,
+      "awake": 0,
+      "base": {
+        "attack": 2680,
+        "hp": 10253.800000000001,
+        "defense": 352.8,
+        "speed": 112,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    },
+    {
+      "heroId": 608,
+      "star": 6,
+      "level": 40,
+      "awake": 1,
+      "base": {
+        "attack": 3899.4,
+        "hp": 12839.784,
+        "defense": 551.25,
+        "speed": 120,
+        "crit": 0.1,
+        "critDamage": 1.5,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "innate": {
+        "attackPercent": 0,
+        "hpPercent": 0,
+        "defensePercent": 0,
+        "speed": 0,
+        "crit": 0,
+        "critDamage": 0,
+        "effectHit": 0,
+        "effectResist": 0
+      },
+      "precheckSupported": true,
+      "reason": null
+    }
+  ]
+}
