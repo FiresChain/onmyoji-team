@@ -22,12 +22,21 @@ function distance(a: string, b: string): number {
 
 function matchName(text: string, entries: Asset[]) {
   const normalized = normalize(text);
-  const exact = entries.find((asset) => normalize(asset.name) === normalized);
-  const candidates = exact ? [] : entries.map((asset) => ({
-    catalogId: asset.id, name: asset.name,
-    similarity: Number((1 - distance(normalized, asset.name) / Math.max(normalized.length, asset.name.length)).toFixed(3)),
-  })).filter((item) => item.similarity >= 0.5).sort((a, b) => b.similarity - a.similarity).slice(0, 3);
-  return { id: exact?.id ?? null, name: exact?.name ?? null, rawText: text || null, candidates };
+  const namedEntries = entries.map((asset) => ({ asset, name: normalize(asset.name) })).filter(({ name }) => name);
+  if (!normalized || !namedEntries.length) return { id: null, name: null, rawText: text || null, candidates: [] };
+  const exact = namedEntries.find(({ name }) => name === normalized)?.asset;
+  if (exact) return { id: exact.id, name: exact.name, rawText: text || null, candidates: [] };
+  const ranked = namedEntries.map(({ asset, name }) => {
+    const edits = distance(normalized, name);
+    return { asset, edits, similarity: 1 - edits / Math.max(normalized.length, name.length) };
+  }).sort((a, b) => b.similarity - a.similarity || a.edits - b.edits
+    || (a.asset.name < b.asset.name ? -1 : a.asset.name > b.asset.name ? 1 : 0)
+    || (a.asset.id < b.asset.id ? -1 : a.asset.id > b.asset.id ? 1 : 0));
+  const best = ranked[0]!.asset;
+  const candidates = ranked.slice(0, 3).map(({ asset, similarity }) => ({
+    catalogId: asset.id, name: asset.name, similarity: Number(similarity.toFixed(3)),
+  }));
+  return { id: best.id, name: best.name, rawText: text || null, candidates };
 }
 
 interface NumberToken { x: number; y: number; value: number; percent: boolean; score: number; split: boolean }
@@ -115,7 +124,8 @@ export function parseTeam(lines: OcrLine[], catalog: Catalog | null, image: { wi
     });
     const nameLine = nameLines[0];
     const shikigami = matchName(nameLine?.text ?? '', catalog?.shikigami ?? []);
-    if (!shikigami.id) needsReview.push('式神名称未精确匹配素材目录');
+    if (shikigami.candidates.length) needsReview.push(`式神名称模糊匹配为「${shikigami.name}」，请核对识别文字「${shikigami.rawText}」`);
+    else if (!shikigami.id) needsReview.push('式神名称未识别或素材目录不可用');
     if (nameLine && nameLine.score < 0.85) needsReview.push('式神名称识别分数较低');
     const panel = Object.fromEntries(STATS.map(([key, label, percentage], row) => {
       const y = unique.find((item) => item.index === row)?.y ?? top + row * step;

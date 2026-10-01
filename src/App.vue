@@ -32,8 +32,7 @@ const activeTab = ref<'calculation' | 'team'>('calculation');
 const copied = ref(false);
 const teamImageUrl = ref('');
 const teamImageName = ref('阵容二维码.png');
-const teamCodeTemplate = ref(import.meta.env.DEV ? import.meta.env.VITE_TEAM_CODE_TEMPLATE ?? '' : '');
-const encodeOptionsOpen = ref(false);
+const TEAM_CODE_TEMPLATE = '#TA#eJxrZ2Rmmjadi8mGYdIkFtZJ3KwHDsw685KJh3EyEyPjdEZGxgmTJnozHJg8kWEiwyRGpgNAMOssIw+LHONkVmZWqAIfDAUurMpABawwBYYYClLYNJAVyGMoqEdVIIuqgO0cw4ynGSzLnm3tfrF+KvMCjuM8WlG7fsy4drcsQ2VHgC/nWXVNABP8TjI=';
 const encodeWarnings = ref<string[]>([]);
 let encodeController: AbortController | null = null;
 const imagePreviewOpen = ref(false);
@@ -266,17 +265,12 @@ async function viewTeamImage() {
   const request = ++imageExportRequest;
   const config = calculationProjection.value.value;
   if (!config) return;
-  if (!teamCodeTemplate.value.trim()) {
-    encodeOptionsOpen.value = true;
-    imageExportError.value = '请先填入游戏内导出的阵容码模板。';
-    return;
-  }
   const localController = new AbortController();
   encodeController = localController;
   generatingImage.value = true;
   imageExportError.value = '';
   try {
-    const encoded = await encodeTeamConfiguration(config, editorCatalog.value, teamCodeTemplate.value, { signal: localController.signal });
+    const encoded = await encodeTeamConfiguration(config, editorCatalog.value, TEAM_CODE_TEMPLATE, { signal: localController.signal });
     if (request !== imageExportRequest) return;
     const image = await teamCodeQrDataUrl(encoded.teamCode);
     if (request !== imageExportRequest) return;
@@ -315,7 +309,6 @@ async function viewTeamImage() {
 // Images always describe the saved configuration. Invalidate an in-flight render
 // if a new screenshot or a saved edit replaces its input.
 watch(calculationDraft, clearTeamImage, { deep: true, flush: 'sync' });
-watch(teamCodeTemplate, clearTeamImage, { flush: 'sync' });
 watch(editorCatalog, clearTeamImage, { flush: 'sync' });
 
 onMounted(() => {
@@ -393,11 +386,6 @@ onBeforeUnmount(() => {
             </div>
           </div>
           <p v-if="imageExportError" class="image-export-error" role="alert">{{ imageExportError }}</p>
-          <details class="encode-options" :open="encodeOptionsOpen" @toggle="encodeOptionsOpen = ($event.target as HTMLDetailsElement).open">
-            <summary>阵容码模板 · 式神六星 40 级</summary>
-            <label>游戏导出的阵容码<textarea v-model="teamCodeTemplate" rows="3" spellcheck="false" placeholder="#TA#…" /></label>
-            <p>沿用模板的阴阳师、场景、技能等设置；五位式神按当前配置编码为六星 40 级。可觉醒式神按觉醒后面板预检，SP 等无需觉醒的式神采用原生面板，请核对模板状态。计算方式与难度只用于本地设置。</p>
-          </details>
           <div v-if="encodeWarnings.length" class="encode-notes" role="status"><p v-for="warning in encodeWarnings" :key="warning">{{ warning }}</p></div>
           <div class="json-toolbar">
             <div class="tabs" role="tablist" aria-label="结果格式">
@@ -428,7 +416,5 @@ onBeforeUnmount(() => {
 .result-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 7px; }
 .result-actions .copy-button { white-space: nowrap; }
 .image-export-error { margin: 0; padding: 10px 20px; color: #9d4d38; background: #fff2eb; border-bottom: 1px solid #ecd9cf; font-size: 11px; }
-.encode-options { padding: 10px 20px; border-bottom: 1px solid #e7ebdf; color: #7d8974; font-size: 11px; }
-.encode-options summary { cursor: pointer; }.encode-options label { display: grid; gap: 6px; margin-top: 10px; }.encode-options textarea { width: 100%; resize: vertical; border: 1px solid #dce1d6; border-radius: 4px; padding: 8px; background: #fff; color: #435b37; font: 10px/1.6 ui-monospace,monospace; }.encode-options p { margin-top: 6px; line-height: 1.6; }
 .encode-notes { padding: 8px 20px; color: #8e7144; background: #fbf5e8; font-size: 10px; }.encode-notes p + p { margin-top: 5px; }
 </style>

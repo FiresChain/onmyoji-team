@@ -66,12 +66,60 @@ test('rejects incomplete column layouts instead of assigning members to the wron
   assert.ok(draft.warnings.some((text) => text.includes('四') || text.includes('4 列')));
 });
 
-test('preserves unknown names as text and suggestions rather than asserting a wrong ID', () => {
+test('fills a one-character OCR mistake from the catalog and flags it for review', () => {
   const lines = fixture().map((item) => item.text === '跳跳哥哥' ? { ...item, text: '跳跳哥各' } : item);
   const { draft } = parseTeam(lines, catalog, image);
-  assert.equal(draft.members[0]!.shikigami.id, null);
+  assert.equal(draft.members[0]!.shikigami.id, '200');
+  assert.equal(draft.members[0]!.shikigami.name, '跳跳哥哥');
   assert.equal(draft.members[0]!.shikigami.rawText, '跳跳哥各');
   assert.equal(draft.members[0]!.shikigami.candidates[0]!.name, '跳跳哥哥');
+  assert.ok(draft.members[0]!.needsReview.some((warning) => warning.includes('模糊匹配') && warning.includes('请核对')));
+});
+
+test('matches a six-character catalog name when OCR drops one character; exact names still win', () => {
+  const lines = fixture().map((item) => item.text === '神堕八岐大蛇' ? { ...item, text: '神堕八岐蛇' } : item);
+  const { draft } = parseTeam(lines, catalog, image);
+  assert.equal(draft.members[4]!.shikigami.id, '204');
+  assert.equal(draft.members[4]!.shikigami.name, '神堕八岐大蛇');
+  assert.equal(draft.members[4]!.shikigami.rawText, '神堕八岐蛇');
+  assert.ok(draft.members[4]!.needsReview.some((warning) => warning.includes('模糊匹配')));
+
+  const withExact: Catalog = { ...catalog, shikigami: [
+    { id: '999', name: '神堕八岐蛇', avatar: '/test/exact.png' }, ...catalog.shikigami,
+  ] };
+  const exact = parseTeam(lines, withExact, image).draft.members[4]!;
+  assert.equal(exact.shikigami.id, '999');
+  assert.equal(exact.shikigami.name, '神堕八岐蛇');
+  assert.deepEqual(exact.shikigami.candidates, []);
+  assert.ok(!exact.needsReview.some((warning) => warning.includes('模糊匹配')));
+});
+
+test('chooses the same closest name for tied similarities regardless of catalog order', () => {
+  const lines = fixture().map((item) => item.text === '化鲸' ? { ...item, text: '化鱼' } : item);
+  const tied: Catalog = { ...catalog, shikigami: [
+    { id: 'a', name: '化牛', avatar: '/test/a.png' },
+    { id: 'b', name: '化马', avatar: '/test/b.png' },
+  ] };
+  const forward = parseTeam(lines, tied, image).draft.members[2]!.shikigami;
+  const reversed = parseTeam(lines, { ...tied, shikigami: [...tied.shikigami].reverse() }, image).draft.members[2]!.shikigami;
+  assert.deepEqual(forward, reversed);
+  assert.equal(forward.name, '化牛');
+});
+
+test('does not invent a shikigami when OCR finds no name or the catalog is empty', () => {
+  const noName = parseTeam(fixture().filter((item) => item.text !== '跳跳哥哥'), catalog, image).draft.members[0]!;
+  assert.deepEqual(noName.shikigami, { id: null, name: null, rawText: null, candidates: [] });
+  assert.ok(noName.needsReview.some((warning) => warning.includes('未识别')));
+
+  const noCatalog = parseTeam(fixture(), { ...catalog, shikigami: [] }, image).draft.members[0]!;
+  assert.equal(noCatalog.shikigami.id, null);
+  assert.equal(noCatalog.shikigami.name, null);
+  assert.equal(noCatalog.shikigami.rawText, '跳跳哥哥');
+  assert.deepEqual(noCatalog.shikigami.candidates, []);
+
+  const unnamedCatalog = parseTeam(fixture(), { ...catalog, shikigami: [{ id: '0', name: '', avatar: '' }] }, image).draft.members[0]!;
+  assert.equal(unnamedCatalog.shikigami.id, null);
+  assert.equal(unnamedCatalog.shikigami.name, null);
 });
 
 test('extracts the same panels from translated, scaled and shuffled OCR boxes', () => {
