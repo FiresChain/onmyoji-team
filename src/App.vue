@@ -25,7 +25,7 @@ const editorCatalogError = ref('');
 let editorCatalogLoading = false;
 const editedSoulSlots = new Set<number>();
 const busy = ref(false);
-const status = ref('等待粘贴截图');
+const status = ref('等待粘贴或选择图片');
 const error = ref('');
 const clipboardHint = ref('');
 const activeTab = ref<'calculation' | 'team'>('calculation');
@@ -40,6 +40,7 @@ const generatingImage = ref(false);
 const imageExportError = ref('');
 let imageExportRequest = 0;
 const pasteArea = ref<HTMLElement | null>(null);
+const imageFileInput = ref<HTMLInputElement | null>(null);
 let job = 0;
 let controller: AbortController | null = null;
 let copyTimer: ReturnType<typeof setTimeout> | undefined;
@@ -178,8 +179,8 @@ async function run() {
 }
 
 async function acceptImage(blob: Blob) {
-  if (blob.size > 20 * 1024 * 1024) { clipboardHint.value = '截图超过 20 MB，请复制尺寸更小的图片。'; return; }
-  if (!blob.type.startsWith('image/') || blob.type === 'image/svg+xml') { clipboardHint.value = '请复制 PNG、JPEG 或 WebP 截图。'; return; }
+  if (blob.size > 20 * 1024 * 1024) { clipboardHint.value = '图片超过 20 MB，请换一张更小的图片。'; return; }
+  if (!blob.type.startsWith('image/') || blob.type === 'image/svg+xml') { clipboardHint.value = '请选择或粘贴非 SVG 图片，如 PNG、JPEG 或 WebP。'; return; }
   controller?.abort();
   releasePreview();
   currentImage.value = blob;
@@ -189,10 +190,21 @@ async function acceptImage(blob: Blob) {
   await run();
 }
 
+function openImageFilePicker() {
+  imageFileInput.value?.click();
+}
+
+function onImageFileChange(event: Event) {
+  const input = event.target as HTMLInputElement;
+  const file = input.files?.[0];
+  input.value = '';
+  if (file) void acceptImage(file);
+}
+
 function onPaste(event: ClipboardEvent) {
   const item = Array.from(event.clipboardData?.items ?? []).find((entry) => entry.type.startsWith('image/'));
   if (!item) {
-    if (pasteArea.value?.contains(document.activeElement)) clipboardHint.value = '剪贴板中没有图片，请复制图片本身后再粘贴。';
+    if (pasteArea.value?.contains(document.activeElement)) clipboardHint.value = '剪贴板中没有图片，请选择图片，或复制图片后再粘贴。';
     return;
   }
   const blob = item.getAsFile();
@@ -202,7 +214,7 @@ function onPaste(event: ClipboardEvent) {
 async function pasteFromClipboard() {
   clipboardHint.value = '';
   if (!navigator.clipboard?.read) {
-    clipboardHint.value = '请在页面按 Ctrl + V 或 ⌘ + V 粘贴截图。';
+    clipboardHint.value = '请使用“选择图片”，或在页面按 Ctrl + V 或 ⌘ + V 粘贴截图。';
     pasteArea.value?.focus();
     return;
   }
@@ -212,9 +224,9 @@ async function pasteFromClipboard() {
       const type = entry.types.find((value) => value.startsWith('image/'));
       if (type) { await acceptImage(await entry.getType(type)); return; }
     }
-    clipboardHint.value = '剪贴板中没有图片，请先复制阵容详情截图。';
+    clipboardHint.value = '剪贴板中没有图片，请选择图片或先复制阵容详情截图。';
   } catch {
-    clipboardHint.value = '未能读取剪贴板，请直接按 Ctrl + V 或 ⌘ + V。';
+    clipboardHint.value = '未能读取剪贴板，请选择图片，或直接按 Ctrl + V 或 ⌘ + V。';
     pasteArea.value?.focus();
   }
 }
@@ -237,7 +249,7 @@ function clear() {
   error.value = '';
   clipboardHint.value = '';
   copied.value = false;
-  status.value = '等待粘贴截图';
+  status.value = '等待粘贴或选择图片';
 }
 async function copyJson() {
   if (!json.value || !canCopy.value) return;
@@ -330,27 +342,32 @@ onBeforeUnmount(() => {
       <div class="workspace">
         <section class="panel image-panel">
           <div class="panel-heading">
-            <div class="panel-title"><span class="step-number">01</span><h2>粘贴截图</h2></div>
+            <div class="panel-title"><span class="step-number">01</span><h2>导入截图</h2></div>
             <button v-if="preview" class="text-button" @click="clear">清空</button>
-            <span v-else class="subtle">支持直接粘贴</span>
+            <span v-else class="subtle">支持粘贴或选图</span>
           </div>
           <div class="image-content">
-            <div ref="pasteArea" class="paste-area" :class="{ 'has-image': preview }" tabindex="0" aria-label="截图粘贴区域，按 Ctrl 加 V 或 Command 加 V 粘贴" @click="pasteArea?.focus()">
+            <input ref="imageFileInput" type="file" accept="image/*" hidden @change="onImageFileChange" />
+            <div ref="pasteArea" class="paste-area" :class="{ 'has-image': preview }" tabindex="0" aria-label="截图粘贴区域，可按 Ctrl 加 V 或 Command 加 V 粘贴，也可选择图片" @click="pasteArea?.focus()">
               <template v-if="!preview">
                 <div class="paste-illustration" aria-hidden="true">
                   <svg viewBox="0 0 72 64" fill="none"><rect x="10" y="6" width="49" height="46" rx="7" stroke="currentColor" stroke-width="1.5"/><circle cx="25" cy="21" r="5" stroke="currentColor" stroke-width="1.5"/><path d="m13 45 14-13 10 8 9-12 10 15" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><rect x="43" y="36" width="25" height="25" rx="7" fill="#f4f5ef" stroke="currentColor" stroke-width="1.5"/><path d="M55.5 42v13m-6.5-6.5h13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
                 </div>
-                <h3>把阵容详情截图粘贴到这里</h3>
-                <p>复制图片后，在此页面按 <kbd>⌘ / Ctrl</kbd> + <kbd>V</kbd></p>
-                <button class="primary-button" @click.stop="pasteFromClipboard">从剪贴板粘贴 <span aria-hidden="true">↗</span></button>
+                <h3>粘贴或选择阵容详情截图</h3>
+                <p>桌面可按 <kbd>⌘ / Ctrl</kbd> + <kbd>V</kbd>，手机可打开系统选图界面</p>
+                <div class="paste-button-row">
+                  <button type="button" class="primary-button" @click.stop="openImageFilePicker">选择图片</button>
+                  <button type="button" class="secondary-button" @click.stop="pasteFromClipboard">从剪贴板粘贴</button>
+                </div>
                 <span class="paste-note">包含五列式神与完整属性表的截图效果更好</span>
               </template>
               <div v-else class="preview-wrap">
-                <img class="screenshot" :src="preview" alt="粘贴的阵容详情截图" />
+                <img class="screenshot" :src="preview" alt="已导入的阵容详情截图" />
               </div>
             </div>
 
             <div v-if="preview" class="image-actions">
+              <button type="button" class="secondary-button" @click="openImageFilePicker">更换图片</button>
               <button v-if="busy" class="secondary-button" @click="cancel">停止识别</button>
               <button v-else class="secondary-button" title="重新识别会按截图重置成员配置，保留上方全局设置" @click="run">重新识别 <span aria-hidden="true">↻</span></button>
             </div>
@@ -401,7 +418,7 @@ onBeforeUnmount(() => {
           <div id="json-output" class="json-output" role="tabpanel" :aria-labelledby="`${activeTab}-tab`" :aria-busy="busy" tabindex="0">
             <TeamConstraintsEditor v-if="calculationDraft && result" v-show="activeTab === 'calculation'" :model-value="calculationDraft" :members="result.draft.members" :issues="calculationProjection.issues" :catalog="editorCatalog" :catalog-error="editorCatalogError" :busy="busy" @update:model-value="updateCalculationDraft" @retry-catalog="refreshEditorCatalog" />
             <pre v-if="result && activeTab !== 'calculation'"><code><span v-for="(part, index) in highlighted" :key="index" :class="`syntax-${part.kind}`">{{ part.text }}</span></code></pre>
-            <div v-else-if="!(activeTab === 'calculation' && calculationDraft && result)" class="json-empty"><span class="brace-icon" aria-hidden="true">{ }</span><h3>{{ busy ? '正在读取截图' : result ? '未定位到阵容表格' : '等一张截图，开始识别' }}</h3><p>{{ result && !busy ? '请换一张包含完整五列的清晰截图。' : activeTab === 'calculation' ? '识别后可逐位调整御魂搭配、计算指标与属性范围。' : '左侧粘贴图片后，这里会显示阵容 JSON。' }}</p><span class="empty-file">team.json</span></div>
+            <div v-else-if="!(activeTab === 'calculation' && calculationDraft && result)" class="json-empty"><span class="brace-icon" aria-hidden="true">{ }</span><h3>{{ busy ? '正在读取截图' : result ? '未定位到阵容表格' : '等一张截图，开始识别' }}</h3><p>{{ result && !busy ? '请换一张包含完整五列的清晰截图。' : activeTab === 'calculation' ? '识别后可逐位调整御魂搭配、计算指标与属性范围。' : '左侧粘贴或选择图片后，这里会显示阵容 JSON。' }}</p><span class="empty-file">team.json</span></div>
           </div>
           <div class="json-footer"><span>{{ activeTab === 'calculation' && calculationDraft ? `${enabledMemberCount} / ${calculationDraft.members.length} 位配置御魂${manualAdjustmentMembers.length ? ` · ${manualAdjustmentMembers.length} 位计算后需卸装` : ''}${relaxedMembers.length ? ` · ${relaxedMembers.length} 位已放宽御魂限制` : ''}${conflictMembers.length ? ` · ${conflictMembers.length} 位冲突，不配置御魂` : ''}` : result ? `${result.draft.members.length} 个式神 · ${valuesRead} 项属性` : '等待识别结果' }}</span><span>截图面板与属性范围：40 表示 40%</span></div>
         </section>
@@ -415,6 +432,10 @@ onBeforeUnmount(() => {
 <style scoped>
 .result-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 7px; }
 .result-actions .copy-button { white-space: nowrap; }
+.paste-button-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; margin: 24px 0 13px; }
+.paste-button-row .primary-button { margin: 0; }
+.paste-button-row .secondary-button { padding: 10px 14px; font-size: 12px; }
+@media (max-width: 480px) { .paste-button-row { width: 100%; flex-direction: column; }.paste-button-row button { width: min(100%, 240px); justify-content: center; } }
 .image-export-error { margin: 0; padding: 10px 20px; color: #9d4d38; background: #fff2eb; border-bottom: 1px solid #ecd9cf; font-size: 11px; }
 .encode-notes { padding: 8px 20px; color: #8e7144; background: #fbf5e8; font-size: 10px; }.encode-notes p + p { margin-top: 5px; }
 </style>
